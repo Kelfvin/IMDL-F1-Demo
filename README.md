@@ -47,6 +47,14 @@ you need to select the .venv kernel in Jupyter Notebook.
 | 6   | macro_no_overlap  | 0.47     |
 
 
+## Conclusion
+
+1. Using macro can lead to inflated scores for models.
+2. Macro does not truly reflect the true performance of the model, and is best reflected in the all-black prediction and the no-overlap case. The higher scores it generates relative to binary's 0 are very unreasonable.
+
+It is best to use the binary method in IMDL to calculate the f1 score.
+
 ## License
 
 This project is licensed under the MIT License.
+
