@@ -32,7 +32,14 @@ uv sync
 
 3. open the `main.ipynb` file in Jupyter Notebook and run the code.
 
-you need to select the .venv kernel in Jupyter Notebook.
+
+Use the following command to start Jupyter Notebook:
+
+```shell
+jupyter notebook
+```
+
+Then select the `main.ipynb` file. Run the code in the notebook to see the results.
 
 
 ## Results

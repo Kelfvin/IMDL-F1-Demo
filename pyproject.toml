@@ -10,6 +10,7 @@ dependencies = [
     "scikit-learn>=1.5.1",
     "opencv-python>=4.10.0.84",
     "prettytable>=3.11.0",
+    "jupyter>=1.1.1",
 ]
 
 [build-system]
